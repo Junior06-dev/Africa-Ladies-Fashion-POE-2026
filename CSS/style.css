@@ -198,5 +198,38 @@ main iframe {
     main p {
         font-size: 15px;
     }
+    main figure img {
+        width: 90%;
+        height: auto;
+        margin: 8px auto;
+        display: block;
+    }
+
+    main figure {
+        padding: 10px;
+    }
+}
+
+/* Gallery */
+main figure {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+main figure img {
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+main figcaption {
+    font-weight: bold;
+    margin-top: 10px;
 }
 
