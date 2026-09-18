@@ -96,3 +96,37 @@ main li {
     padding: 8px;
     margin-bottom: 5px;
 }
+
+/* Logo */
+header img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Home page introduction */
+main section:first-child {
+    text-align: center;
+}
+
+main section:first-child p {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Featured categories */
+main section:last-child ul {
+    list-style-type: none;
+}
+
+main section:last-child li {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 8px auto;
+    max-width: 450px;
+}
+
