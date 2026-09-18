@@ -166,3 +166,37 @@ main iframe {
     border: none;
     margin: 20px auto;
 }
+
+/* Mobile devices */
+@media (max-width: 600px) {
+
+    main {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    main section {
+        padding: 15px;
+    }
+
+    main section article {
+        padding: 15px;
+    }
+
+    main iframe {
+        height: 250px;
+    }
+
+    main h2 {
+        font-size: 22px;
+    }
+
+    main h3 {
+        font-size: 19px;
+    }
+
+    main p {
+        font-size: 15px;
+    }
+}
+
