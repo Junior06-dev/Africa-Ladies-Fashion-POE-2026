@@ -53,3 +53,46 @@ nav a:hover {
     text-decoration: underline;
 }
 
+body {
+    background-color: navy;
+}
+
+/* Main content */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* Content sections */
+main section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+/* Section headings */
+main h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Paragraphs */
+main p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Featured categories */
+main ul {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-position: inside;
+}
+
+main li {
+    padding: 8px;
+    margin-bottom: 5px;
+}
