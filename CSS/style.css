@@ -220,6 +220,18 @@ main iframe[src*="google.com/maps"] {
     main iframe[src*="google.com/maps"] {
         height: 300px;
     }
+    main form {
+        width: 100%;
+    }
+
+    main form input,
+    main form textarea {
+        font-size: 16px;
+    }
+
+    main form button {
+        width: 100%;
+    }
 }
 
 /* Gallery */
@@ -261,5 +273,63 @@ main section ul {
 
 main section li {
     margin-bottom: 10px;
+}
+
+/* Contact page */
+main address {
+    max-width: 700px;
+    margin: 0 auto;
+    font-style: normal;
+}
+
+main address p {
+    background-color: #f2f2f2;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Contact form */
+main form {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+main form p {
+    margin-bottom: 15px;
+}
+
+main form label {
+    font-weight: bold;
+}
+
+main form input,
+main form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+main form textarea {
+    resize: vertical;
+}
+
+/* Submit button */
+main form button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+main form button:hover {
+    opacity: 0.85;
 }
 
