@@ -130,3 +130,39 @@ main section:last-child li {
     max-width: 450px;
 }
 
+/* Products page sections */
+main section article {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Product headings */
+main section article h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Product descriptions */
+main section article p {
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Products page section headings */
+main > section > h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Responsive YouTube video */
+main iframe {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+    border: none;
+    margin: 20px auto;
+}
