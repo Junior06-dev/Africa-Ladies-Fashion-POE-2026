@@ -590,3 +590,62 @@ main figure img:hover {
     }
 
 }
+/* FORM FUNCTIONALITY AND VALIDATION */
+
+.site-form {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.site-form p {
+    margin-bottom: 18px;
+}
+
+.site-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.site-form input,
+.site-form select,
+.site-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.site-form textarea {
+    resize: vertical;
+}
+
+.site-form input:focus,
+.site-form select:focus,
+.site-form textarea:focus {
+    outline: 2px solid #555;
+    outline-offset: 2px;
+}
+
+.site-form button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.site-form button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.form-status {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    overflow-wrap: anywhere;
+}
+
