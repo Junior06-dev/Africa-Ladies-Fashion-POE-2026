@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://junior06-dev.github.io/Africa-Ladies-Fashion-POE-2026/sitemap.xml
