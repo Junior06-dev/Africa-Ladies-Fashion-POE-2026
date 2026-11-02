@@ -79,42 +79,31 @@ The CSS was used to style the website's:
 Responsive CSS was also added so that the website can adjust to different screen sizes. A mobile media query was used to improve  the layout on smaller devices. This includes adjusting the navigation menu, logo size, images, forms, text sizes and embedded content.
 The website was tested on a mobile phone to check that the layout adjusts correctly on a smaller screen.
 
+JavaScript Enhancements and Search Engine Optimisation (SEO)
+JavaScript was implemented to improve the website's functionality and provide visitors with a more interactive experience. This includes a dynamic product listing system with search, category filtering and sorting features, an interactive FAQ accordion, a gallery lightbox, scroll-triggered animations and a back-to-top button. SEO improvements were also made across the website by adding relevant page titles and meta descriptions, organising headings, including descriptive image alt text, improving internal navigation and ensuring the website is responsive across different screen sizes. Additionally, robots.txt and sitemap.xml files were created to help search engines discover and understand the website's pages.
+
 PROJECT STRUCTURE 
-text
 Africa-Ladies-Fashion-POE-2026/
 │
-├── .gitattributes
 ├── index.html
 ├── about.html
 ├── products.html
 ├── gallery.html
 ├── contact.html
+├── enquiry.html
+│
+├── robots.txt
+├── sitemap.xml
 │
 ├── CSS/
 │   └── style.css
 │
+├── JavaScript/
+│   ├── script.js
+│   ├── about.js
+│   ├── products.js
+│   └── forms.js
+│
 ├── images/
-│   ├── logo.jpg
-│   ├── dress1.webp
-│   ├── dress2.jpg
-│   ├── dress3.jpg
-│   ├── top1.webp
-│   ├── top2.jpg
-│   ├── top3.jpg
-│   ├── jeans1.webp
-│   ├── jeans2.jpg
-│   ├── jeans3.jpg
-│   ├── handbag1.jpg
-│   ├── handbag2.jpg
-│   ├── handbag3.jpg
-│   ├── shoes1.jpg
-│   ├── shoes2.jpg
-│   ├── shoes3.jpg
-│   ├── accessory1.jpg
-│   ├── accessory2.jpg
-│   └── accessory3.jpg
 │
 └── Documents/
-│   ├── Africa Ladies Fashion Research
-│   ├── WEDE 2nd proposal.docx
-│   ├── Website Approval Letter
