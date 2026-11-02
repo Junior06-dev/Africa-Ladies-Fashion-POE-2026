@@ -444,6 +444,55 @@ main figure img:hover {
     }
 
 }
+/* FAQ ACCORDION */
+
+.faq-section {
+    max-width: 850px;
+    margin: 30px auto;
+}
+
+.faq-item {
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question:hover {
+    background-color: #e8e8e8;
+}
+
+.faq-icon {
+    font-size: 22px;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background-color: white;
+}
+
+.faq-answer p {
+    margin: 0;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
 
 /* SCROLL ANIMATIONS */
 
