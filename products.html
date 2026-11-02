@@ -41,88 +41,78 @@
 <iframe width="1300" height="500" src="https://www.youtube.com/embed/D4lEiZtXfFg?si=3qUt5uGT49HGDqg_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
 
+<!-- Dynamic Product Listings -->
 
-        <section>
+<section class="product-section">
 
-            <h2>Women's Clothing</h2>
+    <h2>Explore Our Fashion Collection</h2>
 
-            <article>
+    <p>
+        Browse examples of women's clothing and fashion accessories.
+        Use the search and category filters to explore the collection.
+    </p>
 
-                <h3>Dresses</h3>
+    <!-- Search products -->
 
-                <p>
-                    A variety of fashionable dresses suitable for
-                    everyday wear and special occasions. traditional dresses, casual dresses, and formal dresses that can be worn for different events. Let's explore some of the options available at Africa Ladies Fashion.
-                </p>
+    <div class="product-controls">
 
-            </article>
+        <label for="product-search">Search products:</label>
 
+        <input
+            type="search"
+            id="product-search"
+            placeholder="Search for dresses, shoes, handbags..."
+        >
 
-            <article>
+        <!-- Filter products -->
 
-                <h3>Tops</h3>
+        <label for="category-filter">Filter by category:</label>
 
-                <p>
-                    Stylish tops suitable for casual and everyday outfits. summer tops, blouses, and casual shirts that can be paired with different bottoms. Let's explore some of the options available at Africa Ladies Fashion.
-                </p>
+        <select id="category-filter">
 
-            </article>
+            <option value="all">All Categories</option>
+            <option value="Dresses">Dresses</option>
+            <option value="Tops">Tops</option>
+            <option value="Jeans and Trousers">Jeans and Trousers</option>
+            <option value="Handbags">Handbags</option>
+            <option value="Shoes">Shoes</option>
+            <option value="Accessories">Accessories</option>
 
+        </select>
 
-            <article>
+        <!-- Sort products -->
 
-                <h3>Jeans and Trousers</h3>
+        <label for="product-sort">Sort products:</label>
 
-                <p>
-                    Comfortable and fashionable jeans and trousers
-                    for different styles and occasions. perfect for casual wear or dressing up for a night out. Let's explore some of the options available at Africa Ladies Fashion.
-                </p>
+        <select id="product-sort">
 
-            </article>
+            <option value="default">Default Order</option>
+            <option value="ascending">Name: A to Z</option>
+            <option value="descending">Name: Z to A</option>
 
-        </section>
+        </select>
 
+    </div>
 
-        <section>
+    <!-- JavaScript will display products here -->
 
-            <h2>Fashion Accessories</h2>
+    <div id="product-list" class="product-grid">
 
-            <article>
+    </div>
 
-                <h3>Handbags</h3>
+    <!-- Message when no products match -->
 
-                <p>
-                    Fashionable handbags designed to complement
-                    different outfits. Always choose a handbag that suits your style and needs. let's explore some of the options available at Africa Ladies Fashion.
-                </p>
+    <p id="no-products" class="no-products" hidden>
+        No matching products were found. Try another search or category.
+    </p>
 
-            </article>
-
-
-            <article>
-
-                <h3>Shoes</h3>
-
-                <p>
-                    A selection of footwear suitable for different
-                    outfits and occasions. Comfortable and stylish shoes that can be paired with various outfits. Let's explore some of the shoe options available at Africa Ladies Fashion.
-                </p>
-
-            </article>
+</section>
+        
+            
 
 
-            <article>
+        
 
-                <h3>Accessories</h3>
-
-                <p>
-                    Fashion accessories that can be used to complete
-                    and personalise an outfit. Perfect accessories can enhance your overall look and express your personal style. Let's explore some of the accessory options available at Africa Ladies Fashion.
-                </p>
-
-            </article>
-
-        </section>
 
 
     </main>
@@ -135,7 +125,7 @@
         </p>
 
     </footer>
-
+<script src="JavaScript/products.js"></script>
 </body>
 
 </html>
